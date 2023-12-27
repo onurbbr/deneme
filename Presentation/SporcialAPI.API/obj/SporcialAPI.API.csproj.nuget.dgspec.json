@@ -1,0 +1,262 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/onur/Projects/dotnet/SporcialAPI/Presentation/SporcialAPI.API/SporcialAPI.API.csproj": {}
+  },
+  "projects": {
+    "/home/onur/Projects/dotnet/SporcialAPI/Core/SporcialAPI.Application/SporcialAPI.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/onur/Projects/dotnet/SporcialAPI/Core/SporcialAPI.Application/SporcialAPI.Application.csproj",
+        "projectName": "SporcialAPI.Application",
+        "projectPath": "/home/onur/Projects/dotnet/SporcialAPI/Core/SporcialAPI.Application/SporcialAPI.Application.csproj",
+        "packagesPath": "/home/onur/.nuget/packages/",
+        "outputPath": "/home/onur/Projects/dotnet/SporcialAPI/Core/SporcialAPI.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/onur/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/onur/Projects/dotnet/SporcialAPI/Core/SporcialAPI.Domain/SporcialAPI.Domain.csproj": {
+                "projectPath": "/home/onur/Projects/dotnet/SporcialAPI/Core/SporcialAPI.Domain/SporcialAPI.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/onur/Projects/dotnet/SporcialAPI/Core/SporcialAPI.Domain/SporcialAPI.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/onur/Projects/dotnet/SporcialAPI/Core/SporcialAPI.Domain/SporcialAPI.Domain.csproj",
+        "projectName": "SporcialAPI.Domain",
+        "projectPath": "/home/onur/Projects/dotnet/SporcialAPI/Core/SporcialAPI.Domain/SporcialAPI.Domain.csproj",
+        "packagesPath": "/home/onur/.nuget/packages/",
+        "outputPath": "/home/onur/Projects/dotnet/SporcialAPI/Core/SporcialAPI.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/onur/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/onur/Projects/dotnet/SporcialAPI/Infrastructure/SporcialAPI.Persistence/SporcialAPI.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/onur/Projects/dotnet/SporcialAPI/Infrastructure/SporcialAPI.Persistence/SporcialAPI.Persistence.csproj",
+        "projectName": "SporcialAPI.Persistence",
+        "projectPath": "/home/onur/Projects/dotnet/SporcialAPI/Infrastructure/SporcialAPI.Persistence/SporcialAPI.Persistence.csproj",
+        "packagesPath": "/home/onur/.nuget/packages/",
+        "outputPath": "/home/onur/Projects/dotnet/SporcialAPI/Infrastructure/SporcialAPI.Persistence/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/onur/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/onur/Projects/dotnet/SporcialAPI/Core/SporcialAPI.Application/SporcialAPI.Application.csproj": {
+                "projectPath": "/home/onur/Projects/dotnet/SporcialAPI/Core/SporcialAPI.Application/SporcialAPI.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/onur/Projects/dotnet/SporcialAPI/Presentation/SporcialAPI.API/SporcialAPI.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/onur/Projects/dotnet/SporcialAPI/Presentation/SporcialAPI.API/SporcialAPI.API.csproj",
+        "projectName": "SporcialAPI.API",
+        "projectPath": "/home/onur/Projects/dotnet/SporcialAPI/Presentation/SporcialAPI.API/SporcialAPI.API.csproj",
+        "packagesPath": "/home/onur/.nuget/packages/",
+        "outputPath": "/home/onur/Projects/dotnet/SporcialAPI/Presentation/SporcialAPI.API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/onur/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/onur/Projects/dotnet/SporcialAPI/Core/SporcialAPI.Application/SporcialAPI.Application.csproj": {
+                "projectPath": "/home/onur/Projects/dotnet/SporcialAPI/Core/SporcialAPI.Application/SporcialAPI.Application.csproj"
+              },
+              "/home/onur/Projects/dotnet/SporcialAPI/Infrastructure/SporcialAPI.Persistence/SporcialAPI.Persistence.csproj": {
+                "projectPath": "/home/onur/Projects/dotnet/SporcialAPI/Infrastructure/SporcialAPI.Persistence/SporcialAPI.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

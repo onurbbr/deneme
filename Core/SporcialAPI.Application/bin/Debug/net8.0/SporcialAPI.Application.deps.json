@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "SporcialAPI.Application/1.0.0": {
+        "dependencies": {
+          "SporcialAPI.Domain": "1.0.0"
+        },
+        "runtime": {
+          "SporcialAPI.Application.dll": {}
+        }
+      },
+      "SporcialAPI.Domain/1.0.0": {
+        "runtime": {
+          "SporcialAPI.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SporcialAPI.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SporcialAPI.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

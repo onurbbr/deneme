@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "PtXurdcJToVQHSFmkikT06tmL/wN1BDttuzGSUO4foM=",
+  "Source": "SporcialAPI.API",
+  "BasePath": "_content/SporcialAPI.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

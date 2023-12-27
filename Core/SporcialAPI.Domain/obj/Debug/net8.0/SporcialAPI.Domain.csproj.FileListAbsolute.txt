@@ -1,0 +1,11 @@
+/home/onur/Projects/dotnet/SporcialAPI/Core/SporcialAPI.Domain/bin/Debug/net8.0/SporcialAPI.Domain.deps.json
+/home/onur/Projects/dotnet/SporcialAPI/Core/SporcialAPI.Domain/bin/Debug/net8.0/SporcialAPI.Domain.dll
+/home/onur/Projects/dotnet/SporcialAPI/Core/SporcialAPI.Domain/bin/Debug/net8.0/SporcialAPI.Domain.pdb
+/home/onur/Projects/dotnet/SporcialAPI/Core/SporcialAPI.Domain/obj/Debug/net8.0/SporcialAPI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/onur/Projects/dotnet/SporcialAPI/Core/SporcialAPI.Domain/obj/Debug/net8.0/SporcialAPI.Domain.AssemblyInfoInputs.cache
+/home/onur/Projects/dotnet/SporcialAPI/Core/SporcialAPI.Domain/obj/Debug/net8.0/SporcialAPI.Domain.AssemblyInfo.cs
+/home/onur/Projects/dotnet/SporcialAPI/Core/SporcialAPI.Domain/obj/Debug/net8.0/SporcialAPI.Domain.csproj.CoreCompileInputs.cache
+/home/onur/Projects/dotnet/SporcialAPI/Core/SporcialAPI.Domain/obj/Debug/net8.0/SporcialAPI.Domain.dll
+/home/onur/Projects/dotnet/SporcialAPI/Core/SporcialAPI.Domain/obj/Debug/net8.0/refint/SporcialAPI.Domain.dll
+/home/onur/Projects/dotnet/SporcialAPI/Core/SporcialAPI.Domain/obj/Debug/net8.0/SporcialAPI.Domain.pdb
+/home/onur/Projects/dotnet/SporcialAPI/Core/SporcialAPI.Domain/obj/Debug/net8.0/ref/SporcialAPI.Domain.dll
