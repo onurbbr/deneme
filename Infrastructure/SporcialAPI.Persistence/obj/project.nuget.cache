@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "MUFok57f589tsxJK0OCU52R+1B95qLGsNnDriYNVQH+RkDTEYTjqgoeD4rbU0vME5maHuDxbUgBfvOpdxnSP6A==",
+  "dgSpecHash": "cyKR9W8TD6l8J1JpOtbnuUoVD5jY3942JLifVajIJazzXL64kJ9+nUrSx08Cc+6ieyFqIAo15Ck4+Q4NKX0IAg==",
   "success": true,
   "projectFilePath": "/home/onur/Projects/dotnet/Sporcial_API/Infrastructure/SporcialAPI.Persistence/SporcialAPI.Persistence.csproj",
   "expectedPackageFiles": [
     "/home/onur/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/home/onur/.nuget/packages/mediatr/12.2.0/mediatr.12.2.0.nupkg.sha512",
     "/home/onur/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/home/onur/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.1.0/mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
     "/home/onur/.nuget/packages/microsoft.aspnetcore.authentication/2.2.0/microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "/home/onur/.nuget/packages/microsoft.aspnetcore.authentication.abstractions/2.2.0/microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "/home/onur/.nuget/packages/microsoft.aspnetcore.authentication.cookies/2.2.0/microsoft.aspnetcore.authentication.cookies.2.2.0.nupkg.sha512",
@@ -80,5 +81,16 @@
     "/home/onur/.nuget/packages/system.text.json/8.0.0/system.text.json.8.0.0.nupkg.sha512",
     "/home/onur/.nuget/packages/system.threading.channels/6.0.0/system.threading.channels.6.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: MediatR.Extensions.Microsoft.DependencyInjection 11.1.0 requires MediatR (>= 11.0.0 && < 12.0.0) but version MediatR 12.2.0 was resolved.",
+      "libraryId": "MediatR",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

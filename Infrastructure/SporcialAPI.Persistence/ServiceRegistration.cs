@@ -9,7 +9,7 @@ namespace SporcialAPI.Persistence
 {
     public static class ServiceRegistration
     {
-        public static void AddPersistenceServices(this IServiceCollection services)
+        public static void AddPersistence(this IServiceCollection services)
         {
             services.AddDbContext<SporcialAPIDbContext>(options => options.UseNpgsql("User ID=postgres;Password=postgres;Host=localhost;Port=5432;Database=SporcialAPIDb;Pooling=true;Connection Lifetime=0;"));
             services.AddIdentity<AppUser, AppRole>(options =>

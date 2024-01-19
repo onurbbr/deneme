@@ -228,3 +228,4 @@
 /home/onur/Projects/dotnet/Sporcial_API/Presentation/SporcialAPI.API/obj/Debug/net8.0/SporcialAPI.API.pdb
 /home/onur/Projects/dotnet/Sporcial_API/Presentation/SporcialAPI.API/obj/Debug/net8.0/SporcialAPI.API.genruntimeconfig.cache
 /home/onur/Projects/dotnet/Sporcial_API/Presentation/SporcialAPI.API/obj/Debug/net8.0/ref/SporcialAPI.API.dll
+/home/onur/Projects/dotnet/Sporcial_API/Presentation/SporcialAPI.API/bin/Debug/net8.0/MediatR.Extensions.Microsoft.DependencyInjection.dll

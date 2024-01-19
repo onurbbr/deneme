@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "eIMzztu/YR4s7CYMxV9jW/wknDNgZYxwCEfZbLkipeulFwP/W54pZArq7bJ+o3tfbbiEih47VIIeZdQZe/v9HA==",
+  "dgSpecHash": "LojB/SeQ7x5cXgFFbMOz0klbXbWigYH9YzbgEQez9F38eBmwbYUHFw/vPTyAzaoCW18hSiUkbGUJUHKwDBwhUw==",
   "success": true,
   "projectFilePath": "/home/onur/Projects/dotnet/Sporcial_API/Infrastructure/SporcialAPI.Infrastructure/SporcialAPI.Infrastructure.csproj",
   "expectedPackageFiles": [
     "/home/onur/.nuget/packages/mediatr/12.2.0/mediatr.12.2.0.nupkg.sha512",
     "/home/onur/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/home/onur/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.1.0/mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
     "/home/onur/.nuget/packages/microsoft.aspnetcore.authentication/2.2.0/microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "/home/onur/.nuget/packages/microsoft.aspnetcore.authentication.abstractions/2.2.0/microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "/home/onur/.nuget/packages/microsoft.aspnetcore.authentication.cookies/2.2.0/microsoft.aspnetcore.authentication.cookies.2.2.0.nupkg.sha512",
@@ -54,5 +55,16 @@
     "/home/onur/.nuget/packages/system.security.principal.windows/4.5.0/system.security.principal.windows.4.5.0.nupkg.sha512",
     "/home/onur/.nuget/packages/system.text.encodings.web/4.5.0/system.text.encodings.web.4.5.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: MediatR.Extensions.Microsoft.DependencyInjection 11.1.0 requires MediatR (>= 11.0.0 && < 12.0.0) but version MediatR 12.2.0 was resolved.",
+      "libraryId": "MediatR",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

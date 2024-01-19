@@ -1,10 +1,14 @@
 using SporcialAPI.Persistence;
+using SporcialAPI.Application;
+using SporcialAPI.Domain;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddPersistenceServices();
+builder.Services.AddApplication();
+builder.Services.AddPersistence();
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
