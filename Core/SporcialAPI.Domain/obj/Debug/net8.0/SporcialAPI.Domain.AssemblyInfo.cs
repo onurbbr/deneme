@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SporcialAPI.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+364b38bd0a9ceaa225d912acf5d8adb035bfd555")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f3c60b75bf6933da3c44086fa7470175dc527718")]
 [assembly: System.Reflection.AssemblyProductAttribute("SporcialAPI.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SporcialAPI.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

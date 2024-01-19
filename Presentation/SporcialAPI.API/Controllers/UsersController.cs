@@ -1,5 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using SporcialAPI.Application.Abstractions;
+﻿using MediatR;
+using Microsoft.AspNetCore.Mvc;
+using SporcialAPI.Application.Features.Commands.AppUser.CreateUser;
 
 namespace SporcialAPI.API.Controllers
 {
@@ -7,18 +8,18 @@ namespace SporcialAPI.API.Controllers
     [ApiController]
     public class UsersController : ControllerBase
     {
-        private readonly IUserService _userService;
+        readonly IMediator _mediator;
 
-        public UsersController(IUserService userService)
+        public UsersController(IMediator mediator)
         {
-            _userService = userService;
+            _mediator = mediator;
         }
 
-        [HttpGet]
-        public IActionResult GetUser()
+        [HttpPost]
+        public async Task <IActionResult> CreateUser(CreateUserCommandRequest createUserCommandRequest)
         {
-            var users = _userService.GetUsers();
-            return Ok(users);
+            CreateUserCommandResponse response = await _mediator.Send(createUserCommandRequest);
+            return Ok(createUserCommandRequest);
         }
     }
 }
