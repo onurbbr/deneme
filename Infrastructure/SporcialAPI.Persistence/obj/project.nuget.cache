@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "3TJe0R6Bjq/P4C6XQq2cCYhs77axP78BnDZAGncWzkgU6TN3J0CbLqbKLMMEaYA6/TVniHIjZV178DMpH/1B2g==",
+  "dgSpecHash": "ww8sN+ui90mGf1+x9IMqS2+ZFFigUpNP9vwHsmqerAhtRTdwPZy+Jwrch1Sy9Uc2Q0S3GZ84XchwwJ+LtKYj5w==",
   "success": true,
-  "projectFilePath": "/home/onur/Projects/dotnet/SporcialAPI/Infrastructure/SporcialAPI.Persistence/SporcialAPI.Persistence.csproj",
+  "projectFilePath": "/home/onur/Projects/dotnet/Sporcial_API/Infrastructure/SporcialAPI.Persistence/SporcialAPI.Persistence.csproj",
   "expectedPackageFiles": [
-    "/home/onur/.nuget/packages/microsoft.entityframeworkcore/8.0.0/microsoft.entityframeworkcore.8.0.0.nupkg.sha512",
-    "/home/onur/.nuget/packages/microsoft.entityframeworkcore.abstractions/8.0.0/microsoft.entityframeworkcore.abstractions.8.0.0.nupkg.sha512",
-    "/home/onur/.nuget/packages/microsoft.entityframeworkcore.analyzers/8.0.0/microsoft.entityframeworkcore.analyzers.8.0.0.nupkg.sha512",
+    "/home/onur/.nuget/packages/microsoft.entityframeworkcore/8.0.1/microsoft.entityframeworkcore.8.0.1.nupkg.sha512",
+    "/home/onur/.nuget/packages/microsoft.entityframeworkcore.abstractions/8.0.1/microsoft.entityframeworkcore.abstractions.8.0.1.nupkg.sha512",
+    "/home/onur/.nuget/packages/microsoft.entityframeworkcore.analyzers/8.0.1/microsoft.entityframeworkcore.analyzers.8.0.1.nupkg.sha512",
     "/home/onur/.nuget/packages/microsoft.entityframeworkcore.relational/8.0.0/microsoft.entityframeworkcore.relational.8.0.0.nupkg.sha512",
     "/home/onur/.nuget/packages/microsoft.extensions.caching.abstractions/8.0.0/microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
     "/home/onur/.nuget/packages/microsoft.extensions.caching.memory/8.0.0/microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",

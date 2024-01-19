@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SporcialAPI.Application
-build_property.ProjectDir = /home/onur/Projects/dotnet/SporcialAPI/Core/SporcialAPI.Application/
+build_property.ProjectDir = /home/onur/Projects/dotnet/Sporcial_API/Core/SporcialAPI.Application/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

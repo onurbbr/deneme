@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NFfO4csC3LHAwb/55CaAFup+ZnaYFGi/xqB1SYU1c9br7bgjFvEX5zcNHhGWwzVt1BUfAD/cfVv5Zm98SgLw7A==",
+  "dgSpecHash": "QdItI6Vp4jFYUcLH5ux4W9o3UP/TQM1eueVBEHBLRhwru1VLn5EyOCneV01Xc6Pbudiv8NenrhcoIekKaNI98A==",
   "success": true,
-  "projectFilePath": "/home/onur/Projects/dotnet/SporcialAPI/Infrastructure/SporcialAPI.Infrastructure/SporcialAPI.Infrastructure.csproj",
+  "projectFilePath": "/home/onur/Projects/dotnet/Sporcial_API/Infrastructure/SporcialAPI.Infrastructure/SporcialAPI.Infrastructure.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

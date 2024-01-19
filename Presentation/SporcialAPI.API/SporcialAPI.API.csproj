@@ -6,11 +6,11 @@
     <InvariantGlobalization>true</InvariantGlobalization>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0"/>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.0"/>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.1" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Core\SporcialAPI.Application\SporcialAPI.Application.csproj"/>
-    <ProjectReference Include="..\..\Infrastructure\SporcialAPI.Persistence\SporcialAPI.Persistence.csproj"/>
+    <ProjectReference Include="..\..\Core\SporcialAPI.Application\SporcialAPI.Application.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\SporcialAPI.Persistence\SporcialAPI.Persistence.csproj" />
   </ItemGroup>
 </Project>

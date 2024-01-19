@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/onur/Projects/dotnet/SporcialAPI/Core/SporcialAPI.Application/SporcialAPI.Application.csproj",
+      "projectUniqueName": "/home/onur/Projects/dotnet/Sporcial_API/Core/SporcialAPI.Application/SporcialAPI.Application.csproj",
       "projectName": "SporcialAPI.Application",
-      "projectPath": "/home/onur/Projects/dotnet/SporcialAPI/Core/SporcialAPI.Application/SporcialAPI.Application.csproj",
+      "projectPath": "/home/onur/Projects/dotnet/Sporcial_API/Core/SporcialAPI.Application/SporcialAPI.Application.csproj",
       "packagesPath": "/home/onur/.nuget/packages/",
-      "outputPath": "/home/onur/Projects/dotnet/SporcialAPI/Core/SporcialAPI.Application/obj/",
+      "outputPath": "/home/onur/Projects/dotnet/Sporcial_API/Core/SporcialAPI.Application/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/onur/.nuget/NuGet/NuGet.Config"
@@ -51,8 +51,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/home/onur/Projects/dotnet/SporcialAPI/Core/SporcialAPI.Domain/SporcialAPI.Domain.csproj": {
-              "projectPath": "/home/onur/Projects/dotnet/SporcialAPI/Core/SporcialAPI.Domain/SporcialAPI.Domain.csproj"
+            "/home/onur/Projects/dotnet/Sporcial_API/Core/SporcialAPI.Domain/SporcialAPI.Domain.csproj": {
+              "projectPath": "/home/onur/Projects/dotnet/Sporcial_API/Core/SporcialAPI.Domain/SporcialAPI.Domain.csproj"
             }
           }
         }
@@ -82,7 +82,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
